@@ -1,0 +1,23 @@
+body {
+    margin : 0;
+    height : 100%;
+    background : #2D5F89;
+    background-image : linear-gradient(#0F3F68, #2D5F89);
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.main-border {
+    height : 100%;
+    margin : 0.5%;
+    padding : 1%;
+    border : 2px solid #2D5F89;
+}
+
+.message-box {
+    color : #E7FEFF;
+    font-size : 80px;
+    text-align : center;
+    font-family : sans-serif;
+    font-weight : bold;
+}
