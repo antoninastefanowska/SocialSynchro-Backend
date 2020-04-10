@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+    <head>
+        <title>Sign in</title>
+        <script>
+            if (window.location.href.includes("#"))
+                window.location.href = window.location.href.replace("#", "");
+        </script>
+        <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+    </head>
+    <body>
+        <div class="main-border">
+            <div class="message-box">
+                {{ message }}
+            </div>
+        </div>
+    </body>
+</html>
